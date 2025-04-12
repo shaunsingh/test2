@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
 
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -81,7 +82,18 @@ public class Main {
         System.out.print("Enter error: ");
         String error = scanner.nextLine();
         
-        ErrorRecord record = new ErrorRecord(user, account, error);
+        ErrorRecord record = new ErrorRecord(
+            null, // id
+            null, // accountId
+            user,
+            account,
+            error,
+            error, // errorText
+            "NEW", // status
+            "MEDIUM", // severity
+            LocalDateTime.now(), // timestamp
+            null // commentary
+        );
         databaseService.insertErrorRecord(record);
         System.out.println("Error record added successfully.");
     }

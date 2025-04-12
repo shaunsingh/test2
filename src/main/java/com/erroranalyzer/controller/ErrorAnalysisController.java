@@ -5,6 +5,8 @@ import com.erroranalyzer.service.AIService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/analysis")
 @CrossOrigin(origins = "http://localhost:3000")
@@ -19,7 +21,7 @@ public class ErrorAnalysisController {
 
     @PostMapping("/analyze")
     public String analyzeError(@RequestBody ErrorRecord error) {
-        return aiService.analyzeError(error);
+        return aiService.analyzeError(error, List.of(error), "");
     }
 
     static class ErrorRequest {

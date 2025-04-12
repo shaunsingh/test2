@@ -43,7 +43,6 @@ venv/
 
 # Java/Maven
 target/
-.mvn/
 *.class
 *.jar
 *.war
