@@ -1,0 +1,125 @@
+.overview-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  .stat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    h3 {
+      margin: 0;
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+      color: #4c6ef5;
+
+      &.critical { color: #e03131; }
+      &.warning { color: #f59f00; }
+      &.success { color: #37b24d; }
+    }
+  }
+
+  .stat-value {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1a1f36;
+  }
+}
+
+.chart-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+.chart-card, .summary-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #1a1f36;
+  }
+}
+
+.summary-content {
+  color: #4a5568;
+  line-height: 1.6;
+
+  .loading {
+    color: #718096;
+    font-style: italic;
+  }
+}
+
+.recent-errors {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #1a1f36;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      padding: 1rem;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+
+    th {
+      font-weight: 500;
+      color: #4a5568;
+    }
+  }
+}
+
+.severity-badge, .status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.severity-badge {
+  &.critical { background: #fff5f5; color: #e03131; }
+  &.high { background: #fff3bf; color: #f08c00; }
+  &.medium { background: #e6fcf5; color: #0ca678; }
+  &.low { background: #f8f9fa; color: #495057; }
+}
+
+.status-badge {
+  &.open { background: #e3fafc; color: #0c8599; }
+  &.in_progress { background: #fff3bf; color: #f08c00; }
+  &.resolved { background: #ebfbee; color: #37b24d; }
+  &.pending { background: #f8f9fa; color: #495057; }
+} 

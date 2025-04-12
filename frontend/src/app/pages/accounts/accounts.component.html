@@ -1,0 +1,85 @@
+<div class="accounts-page">
+  <div class="users-list">
+    <h2>Users</h2>
+    <div class="users">
+      <div *ngFor="let user of users" 
+           class="user-item"
+           [class.active]="selectedUser === user"
+           (click)="selectUser(user)">
+        <fa-icon [icon]="faUser"></fa-icon>
+        <span>{{user}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="accounts-list" *ngIf="selectedUser">
+    <h2>Accounts for {{selectedUser}}</h2>
+    <div class="accounts">
+      <div *ngFor="let account of userAccounts[selectedUser]"
+           class="account-item"
+           [class.active]="selectedAccount === account"
+           (click)="selectAccount(account)">
+        <fa-icon [icon]="faBriefcase"></fa-icon>
+        <span>{{account}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="account-details" *ngIf="selectedAccount">
+    <div class="account-header">
+      <h2>{{selectedAccount}} Details</h2>
+      <div class="stats">
+        <div class="stat">
+          <label>Total Errors</label>
+          <div class="value">{{accountStats.totalErrors}}</div>
+        </div>
+        <div class="stat">
+          <label>Open Issues</label>
+          <div class="value">{{accountStats.openIssues}}</div>
+        </div>
+        <div class="stat">
+          <label>Critical</label>
+          <div class="value">{{accountStats.criticalErrors}}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ai-analysis">
+      <h3>AI Analysis</h3>
+      <div class="analysis-content">
+        <p *ngIf="aiAnalysis">{{aiAnalysis}}</p>
+        <p *ngIf="!aiAnalysis" class="loading">Analyzing account data...</p>
+      </div>
+    </div>
+
+    <div class="error-list">
+      <h3>Error History</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Error</th>
+            <th>Severity</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let error of accountErrors">
+            <td>{{error.timestamp | date:'short'}}</td>
+            <td>{{error.error}}</td>
+            <td>
+              <span class="severity-badge" [class]="error.severity.toLowerCase()">
+                {{error.severity}}
+              </span>
+            </td>
+            <td>
+              <span class="status-badge" [class]="error.status.toLowerCase()">
+                {{error.status}}
+              </span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div> 

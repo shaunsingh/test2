@@ -1,0 +1,146 @@
+.accounts-page {
+  display: grid;
+  grid-template-columns: 250px 250px 1fr;
+  gap: 2rem;
+  height: 100%;
+}
+
+.users-list, .accounts-list {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    color: #1a1f36;
+  }
+}
+
+.user-item, .account-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #4a5568;
+
+  &:hover {
+    background-color: #f8f9fa;
+  }
+
+  &.active {
+    background-color: #e7f5ff;
+    color: #1c7ed6;
+  }
+
+  fa-icon {
+    font-size: 1rem;
+  }
+}
+
+.account-details {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .account-header {
+    h2 {
+      margin: 0 0 1rem 0;
+      font-size: 1.25rem;
+      color: #1a1f36;
+    }
+
+    .stats {
+      display: flex;
+      gap: 2rem;
+
+      .stat {
+        label {
+          font-size: 0.875rem;
+          color: #718096;
+        }
+
+        .value {
+          font-size: 1.5rem;
+          font-weight: 600;
+          color: #1a1f36;
+        }
+      }
+    }
+  }
+
+  .ai-analysis {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+
+    h3 {
+      margin: 0 0 1rem 0;
+      font-size: 1rem;
+      color: #1a1f36;
+    }
+
+    .analysis-content {
+      color: #4a5568;
+      line-height: 1.6;
+
+      .loading {
+        color: #718096;
+        font-style: italic;
+      }
+    }
+  }
+
+  .error-list {
+    h3 {
+      margin: 0 0 1rem 0;
+      font-size: 1rem;
+      color: #1a1f36;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th, td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      th {
+        font-weight: 500;
+        color: #4a5568;
+      }
+    }
+  }
+}
+
+.severity-badge, .status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.severity-badge {
+  &.critical { background: #fff5f5; color: #e03131; }
+  &.high { background: #fff3bf; color: #f08c00; }
+  &.medium { background: #e6fcf5; color: #0ca678; }
+  &.low { background: #f8f9fa; color: #495057; }
+}
+
+.status-badge {
+  &.open { background: #e3fafc; color: #0c8599; }
+  &.in_progress { background: #fff3bf; color: #f08c00; }
+  &.resolved { background: #ebfbee; color: #37b24d; }
+  &.pending { background: #f8f9fa; color: #495057; }
+} 

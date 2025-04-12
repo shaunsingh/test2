@@ -1,0 +1,85 @@
+<div class="overview-page">
+  <!-- Stats Cards -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-header">
+        <h3>Total Accounts</h3>
+        <fa-icon [icon]="faUsers" class="icon"></fa-icon>
+      </div>
+      <div class="stat-value">{{stats.totalAccounts}}</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <h3>Critical Errors</h3>
+        <fa-icon [icon]="faExclamationTriangle" class="icon critical"></fa-icon>
+      </div>
+      <div class="stat-value">{{stats.criticalErrors}}</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <h3>Open Issues</h3>
+        <fa-icon [icon]="faCircle" class="icon warning"></fa-icon>
+      </div>
+      <div class="stat-value">{{stats.openIssues}}</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-header">
+        <h3>Resolved</h3>
+        <fa-icon [icon]="faCheckCircle" class="icon success"></fa-icon>
+      </div>
+      <div class="stat-value">{{stats.resolved}}</div>
+    </div>
+  </div>
+
+  <!-- Error Severity Distribution -->
+  <div class="chart-section">
+    <div class="chart-card">
+      <h3>Error Severity Distribution</h3>
+      <canvas #severityChart></canvas>
+    </div>
+    
+    <div class="summary-card">
+      <h3>AI Analysis Summary</h3>
+      <div class="summary-content">
+        <p *ngIf="aiSummary">{{aiSummary}}</p>
+        <p *ngIf="!aiSummary" class="loading">Generating summary...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Errors -->
+  <div class="recent-errors">
+    <h3>Recent Errors</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Account</th>
+          <th>Error</th>
+          <th>Severity</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let error of recentErrors">
+          <td>{{error.timestamp | date:'short'}}</td>
+          <td>{{error.account}}</td>
+          <td>{{error.error}}</td>
+          <td>
+            <span class="severity-badge" [class]="error.severity.toLowerCase()">
+              {{error.severity}}
+            </span>
+          </td>
+          <td>
+            <span class="status-badge" [class]="error.status.toLowerCase()">
+              {{error.status}}
+            </span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div> 
