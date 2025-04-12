@@ -1,0 +1,820 @@
+error_id,user_id,account_id,error_message,timestamp,severity
+1,1,1,Invalid trade date for YPF8,2025-03-24 21:32:36,HIGH
+2,1,1,Missing benchmark data for portfolio ACC-29925477,2025-03-12 03:51:36,MEDIUM
+3,1,1,Data feed interruption for ULN6 pricing,2025-03-30 09:38:36,HIGH
+4,1,1,Insufficient liquidity for SOB7,2025-03-14 23:18:36,MEDIUM
+5,1,1,Market value not found for security SEY3,2025-03-14 10:01:36,MEDIUM
+6,1,1,Trade settlement failed for KKW3,2025-03-30 21:37:36,LOW
+7,1,1,Missing benchmark data for portfolio ACC-29925477,2025-03-21 06:30:36,LOW
+8,1,2,Data feed interruption for QUA7 pricing,2025-04-03 00:22:36,LOW
+9,1,2,Market value not found for security BAU7,2025-04-06 21:12:36,LOW
+10,1,2,Compliance breach detected for STT8,2025-03-24 22:07:36,HIGH
+11,1,2,Trade settlement failed for KTP1,2025-04-01 13:55:36,MEDIUM
+12,1,3,Missing benchmark data for portfolio ACC-37880267,2025-03-12 08:12:36,MEDIUM
+13,1,3,Data feed interruption for YLN8 pricing,2025-03-24 07:29:36,LOW
+14,1,3,Data feed interruption for OJQ1 pricing,2025-03-29 14:56:36,HIGH
+15,1,4,Position reconciliation failed for account ACC-49027447,2025-03-17 00:18:36,LOW
+16,1,4,Trade settlement failed for HDO1,2025-03-21 14:54:36,HIGH
+17,1,4,Commentary not uploaded for account ACC-49027447,2025-03-21 10:59:36,MEDIUM
+18,1,4,Risk limits exceeded for account ACC-49027447,2025-04-04 21:27:36,LOW
+19,1,4,Market value not found for security BNP1,2025-04-04 16:22:36,HIGH
+20,1,4,Insufficient liquidity for UTB8,2025-04-09 16:10:36,LOW
+21,1,4,Missing price data for FRV6,2025-04-02 21:49:36,HIGH
+22,2,5,Position reconciliation failed for account ACC-97894658,2025-03-12 12:50:36,LOW
+23,2,5,Data feed interruption for RPN1 pricing,2025-04-10 06:02:36,MEDIUM
+24,2,5,Missing corporate action data for TLK0,2025-03-17 13:10:36,MEDIUM
+25,2,5,Invalid trade date for HHQ0,2025-03-19 10:20:36,MEDIUM
+26,2,5,Trade settlement failed for WXS3,2025-03-27 09:56:36,HIGH
+27,2,6,Failed to generate P&L report for ACC-36797271,2025-04-11 08:37:36,HIGH
+28,2,6,Risk limits exceeded for account ACC-36797271,2025-03-16 14:16:36,LOW
+29,2,6,Market value not found for security HPJ7,2025-03-24 09:37:36,LOW
+30,2,6,Insufficient liquidity for EZE8,2025-04-07 00:22:36,MEDIUM
+31,2,6,Failed to generate P&L report for ACC-36797271,2025-03-24 22:28:36,LOW
+32,2,6,Missing benchmark data for portfolio ACC-36797271,2025-03-19 23:54:36,MEDIUM
+33,2,6,Trade settlement failed for CSC6,2025-03-15 10:22:36,MEDIUM
+34,2,6,Missing corporate action data for BVM0,2025-03-14 10:29:36,MEDIUM
+35,2,7,Missing benchmark data for portfolio ACC-4123449,2025-03-11 20:16:36,LOW
+36,2,7,Commentary not uploaded for account ACC-4123449,2025-03-17 07:36:36,LOW
+37,2,7,Missing corporate action data for YFS0,2025-03-24 23:49:36,HIGH
+38,2,7,Failed to generate P&L report for ACC-4123449,2025-03-30 00:58:36,HIGH
+39,2,7,Missing corporate action data for ARF0,2025-03-28 10:36:36,MEDIUM
+40,2,7,NAV calculation error for account ACC-4123449,2025-03-27 01:47:36,LOW
+41,2,7,Invalid trade date for THA5,2025-04-01 14:38:36,HIGH
+42,2,7,Missing price data for HZH5,2025-03-23 13:31:36,MEDIUM
+43,2,7,NAV calculation error for account ACC-4123449,2025-04-05 20:43:36,LOW
+44,2,7,Commentary not uploaded for account ACC-4123449,2025-03-24 03:16:36,HIGH
+45,2,8,Commentary not uploaded for account ACC-33219795,2025-03-27 21:54:36,MEDIUM
+46,2,8,Trade settlement failed for JKG7,2025-03-16 08:50:36,HIGH
+47,2,8,Missing benchmark data for portfolio ACC-33219795,2025-03-29 20:12:36,LOW
+48,2,8,Insufficient liquidity for OMK6,2025-03-22 16:10:36,LOW
+49,3,9,Invalid trade date for YEL4,2025-03-25 21:47:36,HIGH
+50,3,9,Margin call warning for account ACC-9264426,2025-04-10 01:26:36,HIGH
+51,3,9,Data feed interruption for YFY2 pricing,2025-04-09 02:04:36,HIGH
+52,3,10,Compliance breach detected for WZA7,2025-04-10 19:55:36,MEDIUM
+53,3,10,Data feed interruption for NSD5 pricing,2025-03-23 06:44:36,MEDIUM
+54,3,10,Compliance breach detected for OXX8,2025-03-12 20:00:36,HIGH
+55,3,10,Margin call warning for account ACC-9242040,2025-03-15 01:55:36,HIGH
+56,3,10,Missing price data for HKE4,2025-03-20 01:33:36,LOW
+57,3,10,Invalid trade date for NZQ9,2025-03-29 03:30:36,HIGH
+58,3,10,Compliance breach detected for CWV6,2025-03-16 16:30:36,HIGH
+59,4,11,Failed to generate P&L report for ACC-98679868,2025-03-30 04:03:36,MEDIUM
+60,4,11,Missing corporate action data for GSS5,2025-04-11 12:29:36,HIGH
+61,4,11,Commentary not uploaded for account ACC-98679868,2025-04-05 09:30:36,MEDIUM
+62,4,11,Trade settlement failed for PXX7,2025-03-23 06:40:36,MEDIUM
+63,4,11,Trade settlement failed for GNE8,2025-03-24 11:23:36,HIGH
+64,4,11,Trade settlement failed for DUT1,2025-03-15 22:35:36,LOW
+65,4,12,Missing corporate action data for ASN3,2025-03-21 22:54:36,LOW
+66,4,12,Failed to generate P&L report for ACC-83454399,2025-03-13 00:54:36,HIGH
+67,4,12,Missing price data for TJL4,2025-04-09 15:35:36,MEDIUM
+68,4,12,Compliance breach detected for EKZ9,2025-04-06 10:25:36,MEDIUM
+69,4,12,Market value not found for security FCB7,2025-03-18 07:12:36,LOW
+70,4,12,Compliance breach detected for QLQ8,2025-04-05 00:16:36,MEDIUM
+71,4,12,Missing benchmark data for portfolio ACC-83454399,2025-04-10 00:11:36,MEDIUM
+72,4,12,Insufficient liquidity for XJY1,2025-04-04 00:17:36,LOW
+73,5,13,Margin call warning for account ACC-22238489,2025-03-17 13:56:36,HIGH
+74,5,13,NAV calculation error for account ACC-22238489,2025-04-02 03:43:36,MEDIUM
+75,5,14,NAV calculation error for account ACC-13309444,2025-03-24 21:58:36,LOW
+76,5,15,Compliance breach detected for HOA6,2025-04-07 08:42:36,LOW
+77,5,15,Compliance breach detected for KKS8,2025-03-26 15:11:36,LOW
+78,5,15,Risk limits exceeded for account ACC-35339855,2025-03-24 14:32:36,MEDIUM
+79,5,15,Missing benchmark data for portfolio ACC-35339855,2025-03-23 09:04:36,LOW
+80,5,15,Trade settlement failed for LAI1,2025-03-12 02:34:36,MEDIUM
+81,6,16,Commentary not uploaded for account ACC-29187063,2025-04-04 11:28:36,LOW
+82,6,16,Risk limits exceeded for account ACC-29187063,2025-03-22 04:59:36,LOW
+83,6,16,Risk limits exceeded for account ACC-29187063,2025-03-13 13:54:36,HIGH
+84,6,16,Trade settlement failed for FRL8,2025-04-01 06:00:36,MEDIUM
+85,6,16,Commentary not uploaded for account ACC-29187063,2025-04-11 13:04:36,MEDIUM
+86,6,17,Market value not found for security ZTC5,2025-03-15 12:51:36,MEDIUM
+87,6,17,Missing price data for YYL1,2025-03-31 23:18:36,HIGH
+88,6,17,Compliance breach detected for HYB7,2025-03-30 09:59:36,LOW
+89,6,17,Margin call warning for account ACC-29292042,2025-03-27 12:31:36,HIGH
+90,6,17,Trade settlement failed for PDN0,2025-03-13 12:14:36,HIGH
+91,6,17,Commentary not uploaded for account ACC-29292042,2025-03-27 19:43:36,MEDIUM
+92,7,18,Position reconciliation failed for account ACC-70388189,2025-03-20 07:35:36,LOW
+93,7,18,Position reconciliation failed for account ACC-70388189,2025-03-16 03:26:36,MEDIUM
+94,7,18,Failed to generate P&L report for ACC-70388189,2025-03-15 18:38:36,MEDIUM
+95,7,18,Missing corporate action data for CZA0,2025-03-28 05:02:36,HIGH
+96,7,18,NAV calculation error for account ACC-70388189,2025-04-05 12:46:36,LOW
+97,7,18,Missing price data for KOM7,2025-03-26 12:53:36,HIGH
+98,7,18,Failed to generate P&L report for ACC-70388189,2025-03-29 03:35:36,HIGH
+99,7,18,Market value not found for security FTV0,2025-04-07 19:06:36,HIGH
+100,8,19,Trade settlement failed for DHW1,2025-03-15 08:44:36,LOW
+101,8,19,NAV calculation error for account ACC-90618398,2025-03-30 10:26:36,HIGH
+102,8,19,Risk limits exceeded for account ACC-90618398,2025-03-17 01:00:36,MEDIUM
+103,8,19,Risk limits exceeded for account ACC-90618398,2025-03-28 10:00:36,HIGH
+104,8,19,Position reconciliation failed for account ACC-90618398,2025-03-21 09:02:36,HIGH
+105,8,20,Failed to generate P&L report for ACC-2368230,2025-03-15 02:36:36,LOW
+106,8,20,Data feed interruption for CAG6 pricing,2025-03-12 06:34:36,MEDIUM
+107,8,21,Insufficient liquidity for PZI6,2025-03-28 05:31:36,LOW
+108,8,21,Data feed interruption for NSW9 pricing,2025-03-16 22:41:36,LOW
+109,8,21,Trade settlement failed for XKZ6,2025-04-03 12:29:36,LOW
+110,8,21,Margin call warning for account ACC-22699167,2025-03-16 21:16:36,HIGH
+111,8,21,Insufficient liquidity for SLG2,2025-03-26 17:10:36,MEDIUM
+112,8,21,Margin call warning for account ACC-22699167,2025-03-13 09:56:36,HIGH
+113,8,21,Missing corporate action data for FJS5,2025-04-08 18:40:36,LOW
+114,8,22,Risk limits exceeded for account ACC-88082001,2025-03-25 10:53:36,MEDIUM
+115,8,22,Data feed interruption for ETU2 pricing,2025-03-20 17:48:36,LOW
+116,8,22,Risk limits exceeded for account ACC-88082001,2025-03-15 12:57:36,HIGH
+117,8,22,Insufficient liquidity for SUF1,2025-04-08 15:44:36,LOW
+118,8,22,Margin call warning for account ACC-88082001,2025-03-21 05:53:36,LOW
+119,8,22,Compliance breach detected for SNA3,2025-04-06 20:00:36,LOW
+120,8,22,Margin call warning for account ACC-88082001,2025-03-15 16:42:36,MEDIUM
+121,8,22,Position reconciliation failed for account ACC-88082001,2025-03-26 03:49:36,MEDIUM
+122,8,22,Margin call warning for account ACC-88082001,2025-03-19 15:03:36,HIGH
+123,8,23,Trade settlement failed for FLW2,2025-03-24 04:55:36,LOW
+124,8,23,Compliance breach detected for YRB3,2025-03-13 12:05:36,LOW
+125,8,23,Market value not found for security QTR3,2025-03-22 15:58:36,LOW
+126,9,24,Missing benchmark data for portfolio ACC-60184787,2025-03-16 06:27:36,LOW
+127,9,24,NAV calculation error for account ACC-60184787,2025-03-29 04:48:36,MEDIUM
+128,9,24,Invalid trade date for DJS9,2025-04-01 01:31:36,MEDIUM
+129,9,24,Insufficient liquidity for TOZ9,2025-04-01 15:42:36,MEDIUM
+130,9,24,Missing price data for RYA2,2025-04-04 03:51:36,LOW
+131,9,25,Trade settlement failed for VVA1,2025-03-19 16:45:36,LOW
+132,9,25,Trade settlement failed for QUU6,2025-04-03 13:48:36,HIGH
+133,9,25,Data feed interruption for JCI5 pricing,2025-03-28 04:41:36,MEDIUM
+134,9,25,Position reconciliation failed for account ACC-67862056,2025-04-09 00:28:36,HIGH
+135,9,25,NAV calculation error for account ACC-67862056,2025-03-13 22:52:36,LOW
+136,9,25,Risk limits exceeded for account ACC-67862056,2025-03-27 09:51:36,MEDIUM
+137,10,26,Margin call warning for account ACC-37056098,2025-04-06 20:52:36,MEDIUM
+138,10,26,Compliance breach detected for UQI9,2025-03-22 11:01:36,LOW
+139,10,26,Position reconciliation failed for account ACC-37056098,2025-03-12 00:43:36,LOW
+140,10,26,Market value not found for security GGH3,2025-04-05 01:52:36,MEDIUM
+141,10,26,Missing corporate action data for EDH8,2025-03-25 17:10:36,LOW
+142,11,27,Invalid trade date for PBG0,2025-03-25 08:26:36,MEDIUM
+143,11,27,Trade settlement failed for HGW2,2025-03-15 08:40:36,MEDIUM
+144,11,27,Invalid trade date for MOM2,2025-04-05 15:06:36,HIGH
+145,11,27,NAV calculation error for account ACC-73117313,2025-03-21 18:37:36,LOW
+146,11,27,Missing corporate action data for BYS9,2025-03-19 13:14:36,MEDIUM
+147,11,27,Missing corporate action data for RQO7,2025-04-04 19:00:36,HIGH
+148,11,27,Trade settlement failed for KRJ8,2025-03-25 07:48:36,HIGH
+149,11,27,Risk limits exceeded for account ACC-73117313,2025-03-28 16:06:36,LOW
+150,11,27,Margin call warning for account ACC-73117313,2025-03-23 06:38:36,LOW
+151,11,28,Commentary not uploaded for account ACC-65699398,2025-04-08 09:16:36,HIGH
+152,11,28,NAV calculation error for account ACC-65699398,2025-03-20 19:34:36,HIGH
+153,11,28,Missing price data for GGY4,2025-03-27 00:54:36,HIGH
+154,11,28,Missing benchmark data for portfolio ACC-65699398,2025-03-17 22:41:36,HIGH
+155,11,28,Missing benchmark data for portfolio ACC-65699398,2025-03-24 15:46:36,HIGH
+156,11,28,Margin call warning for account ACC-65699398,2025-03-22 17:28:36,LOW
+157,11,28,Failed to generate P&L report for ACC-65699398,2025-03-23 17:44:36,MEDIUM
+158,11,28,Missing price data for JNS7,2025-04-09 21:07:36,HIGH
+159,11,29,Missing benchmark data for portfolio ACC-82779801,2025-04-06 09:10:36,LOW
+160,11,29,Missing benchmark data for portfolio ACC-82779801,2025-03-23 10:36:36,LOW
+161,11,29,Missing corporate action data for QBM7,2025-03-20 03:44:36,MEDIUM
+162,11,29,Missing price data for RSI0,2025-03-18 10:39:36,HIGH
+163,11,29,Trade settlement failed for LBL8,2025-03-28 14:44:36,MEDIUM
+164,11,29,NAV calculation error for account ACC-82779801,2025-03-18 06:06:36,HIGH
+165,11,29,Risk limits exceeded for account ACC-82779801,2025-03-14 17:55:36,MEDIUM
+166,11,29,Position reconciliation failed for account ACC-82779801,2025-03-16 20:53:36,HIGH
+167,11,29,NAV calculation error for account ACC-82779801,2025-03-26 10:36:36,MEDIUM
+168,11,30,Market value not found for security VJN1,2025-04-07 14:21:36,MEDIUM
+169,11,30,Position reconciliation failed for account ACC-37418304,2025-03-30 16:00:36,MEDIUM
+170,11,30,Insufficient liquidity for ZAS4,2025-03-29 04:06:36,HIGH
+171,11,30,Trade settlement failed for LAB3,2025-03-28 22:34:36,MEDIUM
+172,11,30,Compliance breach detected for UEB7,2025-03-29 20:24:36,HIGH
+173,11,30,Insufficient liquidity for WNJ0,2025-03-14 01:58:36,LOW
+174,11,30,Trade settlement failed for TSL1,2025-04-01 05:58:36,MEDIUM
+175,11,31,Failed to generate P&L report for ACC-58124286,2025-04-09 15:10:36,HIGH
+176,11,31,Data feed interruption for OVG8 pricing,2025-03-14 08:10:36,HIGH
+177,11,31,Trade settlement failed for NVJ6,2025-04-01 21:26:36,HIGH
+178,11,31,Compliance breach detected for BFH5,2025-03-26 13:30:36,MEDIUM
+179,11,31,Insufficient liquidity for VKU1,2025-03-14 19:35:36,MEDIUM
+180,12,32,Risk limits exceeded for account ACC-14637342,2025-04-09 05:37:36,HIGH
+181,12,32,Trade settlement failed for ROD9,2025-03-24 00:36:36,HIGH
+182,12,32,Trade settlement failed for HYL5,2025-04-02 23:05:36,HIGH
+183,12,32,Failed to generate P&L report for ACC-14637342,2025-04-08 20:42:36,MEDIUM
+184,12,32,Invalid trade date for WHG7,2025-04-01 03:15:36,MEDIUM
+185,12,32,NAV calculation error for account ACC-14637342,2025-04-05 05:03:36,LOW
+186,12,32,NAV calculation error for account ACC-14637342,2025-03-13 01:04:36,MEDIUM
+187,12,32,Position reconciliation failed for account ACC-14637342,2025-03-18 01:54:36,MEDIUM
+188,12,32,Margin call warning for account ACC-14637342,2025-03-29 18:29:36,MEDIUM
+189,12,33,Missing price data for YGO3,2025-03-14 17:05:36,LOW
+190,12,33,Insufficient liquidity for KJA7,2025-03-15 15:25:36,MEDIUM
+191,12,33,Position reconciliation failed for account ACC-45749108,2025-04-05 03:52:36,LOW
+192,12,33,Position reconciliation failed for account ACC-45749108,2025-03-30 07:50:36,HIGH
+193,12,34,Market value not found for security PGU7,2025-03-14 09:31:36,MEDIUM
+194,12,34,Missing benchmark data for portfolio ACC-88439381,2025-03-18 06:21:36,MEDIUM
+195,12,34,Missing corporate action data for REW0,2025-04-10 13:54:36,MEDIUM
+196,12,34,Compliance breach detected for UCB6,2025-04-05 13:56:36,MEDIUM
+197,12,34,Missing price data for JXV4,2025-03-20 14:10:36,LOW
+198,12,34,Commentary not uploaded for account ACC-88439381,2025-04-08 09:11:36,MEDIUM
+199,12,34,Risk limits exceeded for account ACC-88439381,2025-04-03 13:12:36,MEDIUM
+200,12,34,Compliance breach detected for GOE4,2025-04-04 18:14:36,LOW
+201,12,34,Invalid trade date for UHV6,2025-03-20 17:37:36,LOW
+202,12,34,Failed to generate P&L report for ACC-88439381,2025-03-17 15:04:36,LOW
+203,12,35,Risk limits exceeded for account ACC-86884415,2025-04-11 02:48:36,HIGH
+204,12,35,Missing benchmark data for portfolio ACC-86884415,2025-04-03 11:33:36,LOW
+205,12,35,Risk limits exceeded for account ACC-86884415,2025-04-03 06:34:36,MEDIUM
+206,12,35,Margin call warning for account ACC-86884415,2025-04-11 14:57:36,LOW
+207,12,35,Trade settlement failed for THJ4,2025-03-12 20:08:36,HIGH
+208,12,35,Position reconciliation failed for account ACC-86884415,2025-04-01 11:00:36,LOW
+209,12,35,Invalid trade date for BMG7,2025-03-30 15:14:36,HIGH
+210,12,36,Insufficient liquidity for LAD5,2025-03-18 13:53:36,HIGH
+211,12,36,Missing benchmark data for portfolio ACC-63142261,2025-03-17 17:27:36,MEDIUM
+212,12,36,Failed to generate P&L report for ACC-63142261,2025-03-12 17:55:36,HIGH
+213,12,36,Commentary not uploaded for account ACC-63142261,2025-03-26 14:40:36,HIGH
+214,12,36,Margin call warning for account ACC-63142261,2025-03-21 17:59:36,MEDIUM
+215,12,36,Invalid trade date for IEH8,2025-03-31 13:50:36,HIGH
+216,13,37,Trade settlement failed for XST0,2025-03-12 06:52:36,MEDIUM
+217,13,37,Market value not found for security EQW5,2025-03-29 21:28:36,MEDIUM
+218,13,37,Risk limits exceeded for account ACC-5803317,2025-03-21 20:02:36,LOW
+219,13,37,Position reconciliation failed for account ACC-5803317,2025-04-09 16:19:36,HIGH
+220,13,37,Compliance breach detected for KRI3,2025-04-01 09:14:36,MEDIUM
+221,13,37,Data feed interruption for PZB6 pricing,2025-04-08 15:29:36,LOW
+222,14,38,Trade settlement failed for WYG2,2025-03-14 14:26:36,HIGH
+223,14,38,NAV calculation error for account ACC-46705613,2025-03-18 02:12:36,MEDIUM
+224,14,38,Missing benchmark data for portfolio ACC-46705613,2025-04-03 01:07:36,MEDIUM
+225,14,38,Commentary not uploaded for account ACC-46705613,2025-03-24 19:44:36,HIGH
+226,14,39,Missing benchmark data for portfolio ACC-94568832,2025-03-31 06:49:36,HIGH
+227,14,39,Position reconciliation failed for account ACC-94568832,2025-03-17 12:21:36,LOW
+228,14,39,Missing benchmark data for portfolio ACC-94568832,2025-04-05 12:47:36,LOW
+229,14,40,Failed to generate P&L report for ACC-83433891,2025-03-28 20:10:36,HIGH
+230,14,40,Invalid trade date for LZI6,2025-03-12 13:37:36,LOW
+231,14,40,Insufficient liquidity for KJV4,2025-04-10 23:18:36,LOW
+232,14,40,Compliance breach detected for JWK7,2025-04-09 11:31:36,MEDIUM
+233,15,41,Insufficient liquidity for AAV8,2025-03-21 18:33:36,HIGH
+234,15,41,Market value not found for security ROC5,2025-03-16 00:51:36,MEDIUM
+235,15,42,Margin call warning for account ACC-83786441,2025-04-09 04:42:36,HIGH
+236,15,42,Missing benchmark data for portfolio ACC-83786441,2025-04-10 13:57:36,MEDIUM
+237,15,43,Missing benchmark data for portfolio ACC-17100082,2025-03-28 07:58:36,HIGH
+238,15,43,Commentary not uploaded for account ACC-17100082,2025-03-17 22:39:36,LOW
+239,15,44,Invalid trade date for OVO5,2025-03-19 01:23:36,LOW
+240,16,45,Missing price data for CKM8,2025-04-11 05:44:36,HIGH
+241,16,45,Compliance breach detected for GYL6,2025-04-08 20:21:36,HIGH
+242,16,45,Margin call warning for account ACC-89599712,2025-03-29 22:45:36,LOW
+243,16,45,Market value not found for security JRN0,2025-04-08 20:06:36,HIGH
+244,16,45,Data feed interruption for PKS6 pricing,2025-03-12 08:49:36,HIGH
+245,16,45,Missing corporate action data for YWA0,2025-03-23 14:42:36,MEDIUM
+246,16,45,Compliance breach detected for IXD6,2025-04-01 19:51:36,LOW
+247,16,45,Missing price data for TPH2,2025-04-06 06:08:36,LOW
+248,17,46,Failed to generate P&L report for ACC-79189661,2025-03-22 17:23:36,HIGH
+249,17,46,NAV calculation error for account ACC-79189661,2025-03-29 04:20:36,LOW
+250,17,46,Trade settlement failed for LWP0,2025-03-19 03:00:36,HIGH
+251,17,46,Data feed interruption for ZBN5 pricing,2025-04-05 11:49:36,HIGH
+252,17,46,Invalid trade date for BRG8,2025-03-15 07:49:36,HIGH
+253,17,46,Missing benchmark data for portfolio ACC-79189661,2025-04-09 16:12:36,LOW
+254,17,46,Missing corporate action data for UIL1,2025-03-15 17:36:36,HIGH
+255,17,47,Insufficient liquidity for PFX8,2025-03-21 14:09:36,HIGH
+256,17,47,Position reconciliation failed for account ACC-9029385,2025-03-29 11:46:36,HIGH
+257,17,47,Position reconciliation failed for account ACC-9029385,2025-04-02 22:21:36,LOW
+258,17,47,Failed to generate P&L report for ACC-9029385,2025-03-18 08:19:36,LOW
+259,17,47,NAV calculation error for account ACC-9029385,2025-03-29 09:49:36,MEDIUM
+260,17,47,Position reconciliation failed for account ACC-9029385,2025-04-10 12:23:36,MEDIUM
+261,17,47,Missing corporate action data for GEP4,2025-03-13 18:26:36,LOW
+262,17,48,Market value not found for security MEB7,2025-03-26 07:38:36,LOW
+263,17,48,Commentary not uploaded for account ACC-49088296,2025-04-09 21:46:36,HIGH
+264,17,48,Failed to generate P&L report for ACC-49088296,2025-03-14 23:38:36,HIGH
+265,17,48,Insufficient liquidity for CRB7,2025-04-01 00:08:36,LOW
+266,17,48,Insufficient liquidity for LHB3,2025-03-19 14:38:36,MEDIUM
+267,17,48,Market value not found for security ZJR2,2025-04-07 16:17:36,HIGH
+268,17,48,Trade settlement failed for OWY2,2025-04-03 21:18:36,LOW
+269,17,48,NAV calculation error for account ACC-49088296,2025-03-16 12:43:36,MEDIUM
+270,17,49,Trade settlement failed for PNU8,2025-04-06 02:12:36,MEDIUM
+271,17,49,Market value not found for security YFP2,2025-03-19 04:28:36,MEDIUM
+272,17,49,Risk limits exceeded for account ACC-83332397,2025-04-05 15:42:36,HIGH
+273,17,49,Missing price data for AWH6,2025-03-28 02:03:36,MEDIUM
+274,17,49,Trade settlement failed for GIX5,2025-04-02 03:40:36,MEDIUM
+275,17,49,Data feed interruption for BKI4 pricing,2025-04-10 21:17:36,MEDIUM
+276,18,50,Missing benchmark data for portfolio ACC-69847075,2025-03-24 20:21:36,HIGH
+277,18,50,Risk limits exceeded for account ACC-69847075,2025-03-14 22:32:36,HIGH
+278,18,50,Compliance breach detected for JAJ1,2025-04-08 23:42:36,LOW
+279,18,50,Trade settlement failed for KPQ0,2025-03-17 16:58:36,LOW
+280,18,50,Data feed interruption for DIH6 pricing,2025-03-13 16:52:36,LOW
+281,18,50,Missing price data for BPG2,2025-04-01 02:07:36,LOW
+282,18,51,Missing benchmark data for portfolio ACC-39393982,2025-04-04 06:17:36,LOW
+283,18,52,Market value not found for security LCW2,2025-03-27 04:18:36,HIGH
+284,18,52,Risk limits exceeded for account ACC-32146753,2025-04-10 02:47:36,MEDIUM
+285,18,52,Data feed interruption for GDU6 pricing,2025-04-10 10:36:36,HIGH
+286,18,52,Risk limits exceeded for account ACC-32146753,2025-04-02 22:45:36,LOW
+287,18,52,Missing price data for ICN4,2025-03-29 11:01:36,HIGH
+288,18,52,Insufficient liquidity for ZNB0,2025-03-28 18:27:36,MEDIUM
+289,18,53,Failed to generate P&L report for ACC-42710892,2025-03-28 02:50:36,LOW
+290,18,54,Trade settlement failed for GJN2,2025-03-31 09:32:36,MEDIUM
+291,18,54,Invalid trade date for OSL4,2025-03-12 15:48:36,HIGH
+292,18,54,Failed to generate P&L report for ACC-10340198,2025-03-31 20:39:36,LOW
+293,18,54,Insufficient liquidity for NBW5,2025-03-18 02:15:36,MEDIUM
+294,18,54,Commentary not uploaded for account ACC-10340198,2025-04-02 09:05:36,MEDIUM
+295,18,54,Margin call warning for account ACC-10340198,2025-03-17 09:42:36,LOW
+296,18,54,Trade settlement failed for WWW5,2025-03-24 01:51:36,LOW
+297,19,55,Missing benchmark data for portfolio ACC-54341179,2025-03-27 09:32:36,MEDIUM
+298,19,55,Missing benchmark data for portfolio ACC-54341179,2025-04-07 05:21:36,LOW
+299,19,55,Failed to generate P&L report for ACC-54341179,2025-03-27 14:18:36,MEDIUM
+300,19,55,Margin call warning for account ACC-54341179,2025-03-24 06:55:36,LOW
+301,19,55,Risk limits exceeded for account ACC-54341179,2025-03-17 16:17:36,LOW
+302,19,55,Commentary not uploaded for account ACC-54341179,2025-03-24 10:17:36,HIGH
+303,19,55,Compliance breach detected for KPI0,2025-03-31 10:11:36,LOW
+304,19,56,Compliance breach detected for YJS9,2025-03-12 01:44:36,LOW
+305,19,56,Compliance breach detected for LLU7,2025-03-29 02:10:36,HIGH
+306,19,56,Data feed interruption for JJJ5 pricing,2025-04-10 09:31:36,LOW
+307,19,56,NAV calculation error for account ACC-89470192,2025-03-11 21:00:36,MEDIUM
+308,19,56,Missing benchmark data for portfolio ACC-89470192,2025-03-17 18:52:36,HIGH
+309,19,56,Commentary not uploaded for account ACC-89470192,2025-04-07 15:34:36,LOW
+310,19,56,Commentary not uploaded for account ACC-89470192,2025-03-29 03:02:36,MEDIUM
+311,19,56,Insufficient liquidity for MYD8,2025-03-30 16:05:36,MEDIUM
+312,19,56,Failed to generate P&L report for ACC-89470192,2025-03-13 13:24:36,HIGH
+313,19,57,Market value not found for security MMU0,2025-03-12 11:45:36,MEDIUM
+314,19,57,Compliance breach detected for HOF3,2025-03-30 18:13:36,LOW
+315,19,57,Compliance breach detected for XFU1,2025-03-15 08:39:36,MEDIUM
+316,19,57,Failed to generate P&L report for ACC-86793921,2025-04-05 02:23:36,LOW
+317,19,57,Missing corporate action data for WMC5,2025-03-24 02:58:36,LOW
+318,19,57,Missing price data for ADY8,2025-03-13 09:06:36,LOW
+319,19,57,Invalid trade date for DZV3,2025-03-22 04:55:36,LOW
+320,19,57,Insufficient liquidity for YUI1,2025-03-19 16:32:36,HIGH
+321,19,57,Margin call warning for account ACC-86793921,2025-03-12 06:34:36,HIGH
+322,19,58,Compliance breach detected for EEF7,2025-04-10 14:33:36,HIGH
+323,19,58,Missing corporate action data for AWL4,2025-04-01 04:56:36,HIGH
+324,19,58,Market value not found for security CHW9,2025-03-15 05:35:36,LOW
+325,19,58,Missing benchmark data for portfolio ACC-87052142,2025-03-15 08:43:36,MEDIUM
+326,19,58,Commentary not uploaded for account ACC-87052142,2025-03-31 08:16:36,HIGH
+327,19,58,Position reconciliation failed for account ACC-87052142,2025-04-08 23:39:36,HIGH
+328,19,58,Missing benchmark data for portfolio ACC-87052142,2025-03-19 05:13:36,MEDIUM
+329,19,58,Failed to generate P&L report for ACC-87052142,2025-03-29 21:08:36,MEDIUM
+330,19,58,Margin call warning for account ACC-87052142,2025-03-13 04:10:36,HIGH
+331,19,59,Missing benchmark data for portfolio ACC-45988804,2025-04-07 02:24:36,HIGH
+332,19,59,Compliance breach detected for BVD9,2025-03-19 03:58:36,MEDIUM
+333,19,59,Data feed interruption for NUP5 pricing,2025-04-10 17:24:36,HIGH
+334,19,59,Margin call warning for account ACC-45988804,2025-04-01 07:54:36,HIGH
+335,19,59,Missing corporate action data for MON1,2025-04-03 04:43:36,LOW
+336,20,60,Trade settlement failed for RPC7,2025-04-10 21:09:36,LOW
+337,20,60,Market value not found for security CPA0,2025-03-29 08:55:36,MEDIUM
+338,20,60,NAV calculation error for account ACC-67158747,2025-04-11 13:02:36,LOW
+339,20,61,Trade settlement failed for VTL1,2025-04-04 14:45:36,MEDIUM
+340,20,61,Risk limits exceeded for account ACC-65743561,2025-04-11 09:21:36,HIGH
+341,20,61,Compliance breach detected for CTH4,2025-04-07 05:56:36,HIGH
+342,20,61,Invalid trade date for GON5,2025-03-24 23:38:36,LOW
+343,20,61,Missing corporate action data for QYS7,2025-03-25 22:06:36,LOW
+344,20,61,Market value not found for security BPL4,2025-03-13 02:20:36,MEDIUM
+345,20,62,Compliance breach detected for GYQ3,2025-04-08 11:04:36,MEDIUM
+346,21,63,Risk limits exceeded for account ACC-70277128,2025-04-08 07:39:36,LOW
+347,21,63,Invalid trade date for YAM3,2025-04-11 15:19:36,MEDIUM
+348,21,63,Insufficient liquidity for ZBY1,2025-03-31 20:56:36,LOW
+349,21,63,Missing corporate action data for MUO6,2025-04-08 12:54:36,HIGH
+350,21,63,Invalid trade date for MVO0,2025-04-05 03:39:36,LOW
+351,21,63,Insufficient liquidity for MSM0,2025-03-27 01:58:36,MEDIUM
+352,21,63,Market value not found for security UAC3,2025-03-21 00:09:36,LOW
+353,22,64,Trade settlement failed for SSL4,2025-03-18 05:17:36,MEDIUM
+354,22,64,Market value not found for security ELW4,2025-03-28 10:20:36,MEDIUM
+355,22,64,Insufficient liquidity for BYY1,2025-04-07 04:26:36,MEDIUM
+356,22,64,Missing benchmark data for portfolio ACC-91098015,2025-03-23 08:41:36,HIGH
+357,22,65,Missing benchmark data for portfolio ACC-77939045,2025-03-28 13:28:36,MEDIUM
+358,22,65,Risk limits exceeded for account ACC-77939045,2025-03-30 11:33:36,HIGH
+359,22,65,Compliance breach detected for VGF8,2025-03-12 04:29:36,HIGH
+360,22,66,Commentary not uploaded for account ACC-91818509,2025-03-11 17:34:36,HIGH
+361,23,67,Commentary not uploaded for account ACC-98904646,2025-04-03 02:15:36,LOW
+362,23,67,Market value not found for security TJD6,2025-03-23 06:12:36,LOW
+363,23,67,Failed to generate P&L report for ACC-98904646,2025-04-09 18:49:36,MEDIUM
+364,23,67,Missing corporate action data for VMQ5,2025-03-13 15:17:36,LOW
+365,23,67,Data feed interruption for VPI1 pricing,2025-04-06 23:43:36,HIGH
+366,23,68,Missing corporate action data for JLX4,2025-03-28 13:46:36,HIGH
+367,23,68,NAV calculation error for account ACC-16571271,2025-04-11 12:47:36,MEDIUM
+368,23,68,Compliance breach detected for GBV7,2025-03-20 04:35:36,MEDIUM
+369,23,68,Position reconciliation failed for account ACC-16571271,2025-03-23 03:14:36,HIGH
+370,23,68,Position reconciliation failed for account ACC-16571271,2025-04-03 12:13:36,HIGH
+371,23,68,Failed to generate P&L report for ACC-16571271,2025-04-08 12:12:36,MEDIUM
+372,23,68,Insufficient liquidity for TPK4,2025-03-12 22:12:36,HIGH
+373,23,68,Missing benchmark data for portfolio ACC-16571271,2025-03-16 20:19:36,LOW
+374,23,68,Commentary not uploaded for account ACC-16571271,2025-03-31 03:10:36,MEDIUM
+375,23,68,Data feed interruption for BCI0 pricing,2025-03-15 14:14:36,HIGH
+376,23,69,Insufficient liquidity for TBR1,2025-03-26 09:58:36,HIGH
+377,23,69,Trade settlement failed for YID6,2025-04-07 19:57:36,LOW
+378,23,69,NAV calculation error for account ACC-19054625,2025-03-25 22:50:36,MEDIUM
+379,23,69,Market value not found for security ALW7,2025-03-31 01:47:36,MEDIUM
+380,23,69,Position reconciliation failed for account ACC-19054625,2025-03-18 04:55:36,HIGH
+381,23,69,Position reconciliation failed for account ACC-19054625,2025-04-03 06:41:36,HIGH
+382,23,69,NAV calculation error for account ACC-19054625,2025-03-30 13:08:36,LOW
+383,23,69,Risk limits exceeded for account ACC-19054625,2025-04-11 07:03:36,HIGH
+384,23,70,Compliance breach detected for YJO5,2025-03-28 05:03:36,MEDIUM
+385,23,70,Trade settlement failed for DJZ3,2025-03-19 17:38:36,LOW
+386,23,70,Failed to generate P&L report for ACC-30179054,2025-03-12 09:50:36,LOW
+387,23,70,Risk limits exceeded for account ACC-30179054,2025-03-27 16:49:36,LOW
+388,23,70,Data feed interruption for YIG4 pricing,2025-04-03 17:39:36,LOW
+389,23,70,Data feed interruption for PET4 pricing,2025-04-05 14:01:36,HIGH
+390,23,70,Missing corporate action data for FCK8,2025-03-27 07:50:36,HIGH
+391,23,70,Trade settlement failed for OKE4,2025-03-20 08:10:36,HIGH
+392,23,70,Invalid trade date for GBG5,2025-03-27 03:42:36,HIGH
+393,23,70,Compliance breach detected for DSW2,2025-03-29 02:42:36,LOW
+394,23,71,Market value not found for security SZC8,2025-03-30 04:56:36,HIGH
+395,23,71,Insufficient liquidity for GEP9,2025-04-07 20:35:36,LOW
+396,23,71,Risk limits exceeded for account ACC-63973744,2025-03-23 15:51:36,HIGH
+397,23,71,Invalid trade date for JKV7,2025-03-30 03:02:36,LOW
+398,24,72,Failed to generate P&L report for ACC-16693232,2025-03-12 10:47:36,HIGH
+399,24,72,Market value not found for security VLN8,2025-04-11 01:23:36,HIGH
+400,24,72,Insufficient liquidity for LFM2,2025-04-06 15:46:36,LOW
+401,24,72,Missing corporate action data for SHC8,2025-04-01 03:43:36,LOW
+402,24,72,Commentary not uploaded for account ACC-16693232,2025-03-12 18:28:36,MEDIUM
+403,24,72,Margin call warning for account ACC-16693232,2025-03-23 13:55:36,HIGH
+404,24,72,Risk limits exceeded for account ACC-16693232,2025-03-16 15:58:36,LOW
+405,24,72,Commentary not uploaded for account ACC-16693232,2025-03-28 16:42:36,MEDIUM
+406,24,73,Market value not found for security WIY2,2025-03-20 00:25:36,HIGH
+407,24,73,Missing benchmark data for portfolio ACC-67730905,2025-03-12 07:44:36,HIGH
+408,24,73,Missing benchmark data for portfolio ACC-67730905,2025-03-28 08:43:36,MEDIUM
+409,24,73,Trade settlement failed for LSZ4,2025-03-13 20:17:36,LOW
+410,24,74,Compliance breach detected for SMG1,2025-03-30 23:46:36,HIGH
+411,24,74,Risk limits exceeded for account ACC-37603864,2025-03-20 11:28:36,LOW
+412,24,74,Position reconciliation failed for account ACC-37603864,2025-04-09 18:06:36,LOW
+413,24,74,Data feed interruption for WOZ7 pricing,2025-03-27 14:27:36,MEDIUM
+414,24,74,Position reconciliation failed for account ACC-37603864,2025-03-29 23:31:36,LOW
+415,24,74,Position reconciliation failed for account ACC-37603864,2025-03-26 16:19:36,MEDIUM
+416,24,74,NAV calculation error for account ACC-37603864,2025-04-02 19:06:36,LOW
+417,24,74,Risk limits exceeded for account ACC-37603864,2025-03-25 22:55:36,HIGH
+418,24,74,Compliance breach detected for NMM8,2025-04-06 19:27:36,LOW
+419,24,74,Data feed interruption for FML8 pricing,2025-03-22 07:05:36,LOW
+420,25,75,Missing benchmark data for portfolio ACC-4534868,2025-03-19 17:50:36,MEDIUM
+421,25,75,Missing benchmark data for portfolio ACC-4534868,2025-03-20 18:55:36,MEDIUM
+422,25,75,Insufficient liquidity for ZFR9,2025-03-26 14:56:36,MEDIUM
+423,25,75,Insufficient liquidity for CFY2,2025-03-31 07:45:36,MEDIUM
+424,25,75,Data feed interruption for KQS4 pricing,2025-03-21 12:01:36,LOW
+425,25,75,Margin call warning for account ACC-4534868,2025-03-14 16:20:36,MEDIUM
+426,25,75,Margin call warning for account ACC-4534868,2025-04-04 05:16:36,LOW
+427,25,75,Missing corporate action data for PDM7,2025-03-14 08:20:36,LOW
+428,25,75,Risk limits exceeded for account ACC-4534868,2025-03-21 05:33:36,LOW
+429,25,75,Commentary not uploaded for account ACC-4534868,2025-04-04 14:41:36,HIGH
+430,25,76,Trade settlement failed for GFQ8,2025-03-20 12:20:36,MEDIUM
+431,25,76,Commentary not uploaded for account ACC-52090243,2025-03-23 03:47:36,MEDIUM
+432,25,76,Commentary not uploaded for account ACC-52090243,2025-04-06 21:09:36,LOW
+433,25,76,Market value not found for security FVO4,2025-04-02 23:33:36,LOW
+434,25,76,Market value not found for security XFF6,2025-03-25 19:01:36,HIGH
+435,25,76,Invalid trade date for VMA6,2025-04-04 19:46:36,HIGH
+436,25,76,Risk limits exceeded for account ACC-52090243,2025-04-10 18:16:36,HIGH
+437,25,76,Insufficient liquidity for JVG7,2025-04-05 06:59:36,MEDIUM
+438,25,76,Trade settlement failed for WHR8,2025-04-08 16:30:36,HIGH
+439,25,77,Missing benchmark data for portfolio ACC-57175510,2025-04-05 20:07:36,MEDIUM
+440,25,77,Failed to generate P&L report for ACC-57175510,2025-03-17 13:53:36,HIGH
+441,25,77,Market value not found for security NVO3,2025-03-15 22:37:36,LOW
+442,25,77,Risk limits exceeded for account ACC-57175510,2025-04-01 14:47:36,LOW
+443,25,77,Margin call warning for account ACC-57175510,2025-03-21 06:14:36,MEDIUM
+444,25,77,Risk limits exceeded for account ACC-57175510,2025-04-02 23:37:36,MEDIUM
+445,25,77,Missing benchmark data for portfolio ACC-57175510,2025-03-14 05:02:36,HIGH
+446,25,78,Missing benchmark data for portfolio ACC-25932196,2025-04-09 07:00:36,LOW
+447,25,78,Failed to generate P&L report for ACC-25932196,2025-03-13 08:29:36,MEDIUM
+448,25,78,Missing benchmark data for portfolio ACC-25932196,2025-04-05 02:45:36,MEDIUM
+449,25,78,Trade settlement failed for PKR3,2025-03-21 09:44:36,LOW
+450,25,78,Insufficient liquidity for ZXV3,2025-03-28 05:00:36,HIGH
+451,25,78,Missing corporate action data for OUF3,2025-04-08 19:52:36,LOW
+452,25,78,Compliance breach detected for SRL1,2025-03-29 16:15:36,HIGH
+453,25,78,Compliance breach detected for RCF2,2025-03-29 11:21:36,HIGH
+454,25,78,Margin call warning for account ACC-25932196,2025-04-04 01:58:36,HIGH
+455,25,78,Market value not found for security FTD8,2025-04-02 17:43:36,HIGH
+456,26,79,Margin call warning for account ACC-8422333,2025-04-03 13:53:36,MEDIUM
+457,26,79,Risk limits exceeded for account ACC-8422333,2025-03-17 03:02:36,MEDIUM
+458,26,80,Compliance breach detected for GFR3,2025-03-18 20:24:36,LOW
+459,27,81,NAV calculation error for account ACC-42097817,2025-03-31 19:31:36,HIGH
+460,27,81,Trade settlement failed for AOV1,2025-04-10 01:56:36,MEDIUM
+461,27,81,Position reconciliation failed for account ACC-42097817,2025-04-01 06:50:36,LOW
+462,27,81,Failed to generate P&L report for ACC-42097817,2025-04-10 17:16:36,HIGH
+463,27,81,Risk limits exceeded for account ACC-42097817,2025-04-10 19:39:36,LOW
+464,27,81,Data feed interruption for JMQ5 pricing,2025-04-02 03:15:36,LOW
+465,27,82,Invalid trade date for EEJ3,2025-03-26 22:10:36,HIGH
+466,27,82,Trade settlement failed for HZD0,2025-03-23 17:57:36,LOW
+467,27,82,Margin call warning for account ACC-36000678,2025-03-31 08:22:36,HIGH
+468,27,83,Compliance breach detected for LDS2,2025-04-08 03:06:36,MEDIUM
+469,27,83,Market value not found for security HBY3,2025-04-06 04:07:36,LOW
+470,27,83,Failed to generate P&L report for ACC-42213864,2025-04-03 21:34:36,HIGH
+471,27,83,NAV calculation error for account ACC-42213864,2025-03-23 06:13:36,LOW
+472,27,83,NAV calculation error for account ACC-42213864,2025-03-14 16:59:36,HIGH
+473,27,83,Market value not found for security BHP0,2025-03-13 22:47:36,MEDIUM
+474,27,83,Missing price data for YPG1,2025-03-17 12:57:36,MEDIUM
+475,27,83,Insufficient liquidity for RHY4,2025-03-16 16:25:36,HIGH
+476,27,83,Risk limits exceeded for account ACC-42213864,2025-03-13 00:13:36,HIGH
+477,27,83,Commentary not uploaded for account ACC-42213864,2025-03-18 03:26:36,HIGH
+478,27,84,Compliance breach detected for UBD7,2025-04-10 04:30:36,LOW
+479,27,84,Insufficient liquidity for QWN9,2025-03-23 19:04:36,LOW
+480,27,84,Missing corporate action data for WVM6,2025-03-31 17:14:36,LOW
+481,27,84,Missing benchmark data for portfolio ACC-90691148,2025-03-30 13:56:36,LOW
+482,27,84,Risk limits exceeded for account ACC-90691148,2025-03-25 19:05:36,MEDIUM
+483,27,84,Insufficient liquidity for AHX9,2025-03-29 04:17:36,LOW
+484,28,85,Missing corporate action data for OLN0,2025-03-28 14:06:36,LOW
+485,28,85,Missing corporate action data for SOT8,2025-03-21 14:10:36,HIGH
+486,28,85,Missing price data for PIL1,2025-03-19 22:10:36,LOW
+487,28,85,Failed to generate P&L report for ACC-91299750,2025-04-03 01:08:36,MEDIUM
+488,28,85,NAV calculation error for account ACC-91299750,2025-04-02 17:40:36,HIGH
+489,28,86,Failed to generate P&L report for ACC-58786879,2025-03-26 12:33:36,MEDIUM
+490,28,86,Compliance breach detected for THL6,2025-03-13 20:44:36,HIGH
+491,29,87,Margin call warning for account ACC-3879212,2025-03-22 15:55:36,HIGH
+492,29,87,Position reconciliation failed for account ACC-3879212,2025-04-01 13:23:36,LOW
+493,29,87,Missing benchmark data for portfolio ACC-3879212,2025-03-21 09:51:36,MEDIUM
+494,29,87,Risk limits exceeded for account ACC-3879212,2025-04-02 10:09:36,LOW
+495,29,87,Insufficient liquidity for OLN7,2025-03-26 05:50:36,MEDIUM
+496,29,88,Failed to generate P&L report for ACC-68250071,2025-03-27 11:48:36,HIGH
+497,29,88,Compliance breach detected for GVL4,2025-03-23 16:29:36,LOW
+498,29,88,Missing corporate action data for HYZ9,2025-03-18 19:35:36,MEDIUM
+499,29,88,Risk limits exceeded for account ACC-68250071,2025-03-22 22:40:36,HIGH
+500,30,89,Missing corporate action data for HXY7,2025-04-02 20:51:36,LOW
+501,30,89,Insufficient liquidity for JII3,2025-03-30 04:04:36,HIGH
+502,30,89,Invalid trade date for XYJ4,2025-04-03 10:06:36,LOW
+503,30,89,Invalid trade date for NTY4,2025-03-25 05:03:36,LOW
+504,30,89,Market value not found for security UGX6,2025-03-15 11:40:36,LOW
+505,30,89,Market value not found for security JER7,2025-03-14 09:48:36,LOW
+506,30,90,Compliance breach detected for LUA9,2025-03-13 10:31:36,MEDIUM
+507,30,90,NAV calculation error for account ACC-81942208,2025-04-07 07:24:36,LOW
+508,30,90,Missing corporate action data for ZMF7,2025-04-02 13:52:36,HIGH
+509,30,90,Commentary not uploaded for account ACC-81942208,2025-03-20 18:13:36,MEDIUM
+510,30,90,Commentary not uploaded for account ACC-81942208,2025-03-18 15:20:36,LOW
+511,30,90,Missing corporate action data for UFA1,2025-04-08 21:46:36,MEDIUM
+512,30,90,NAV calculation error for account ACC-81942208,2025-03-27 13:39:36,LOW
+513,31,91,Market value not found for security JCQ4,2025-03-24 20:46:36,MEDIUM
+514,31,91,Position reconciliation failed for account ACC-22190660,2025-03-13 12:08:36,HIGH
+515,31,91,Insufficient liquidity for ARG2,2025-03-26 11:00:36,MEDIUM
+516,31,91,Invalid trade date for SNS6,2025-03-21 14:11:36,HIGH
+517,31,92,Margin call warning for account ACC-87445530,2025-03-19 13:20:36,LOW
+518,31,92,Failed to generate P&L report for ACC-87445530,2025-03-28 15:01:36,HIGH
+519,31,92,Position reconciliation failed for account ACC-87445530,2025-04-10 10:02:36,LOW
+520,31,92,NAV calculation error for account ACC-87445530,2025-04-06 18:32:36,LOW
+521,31,92,Failed to generate P&L report for ACC-87445530,2025-03-31 02:57:36,LOW
+522,31,92,Risk limits exceeded for account ACC-87445530,2025-03-16 18:11:36,LOW
+523,31,92,Data feed interruption for CYH6 pricing,2025-03-20 06:46:36,LOW
+524,32,93,Missing price data for IUK4,2025-03-12 20:54:36,HIGH
+525,32,93,Commentary not uploaded for account ACC-99942930,2025-03-17 04:08:36,LOW
+526,32,94,NAV calculation error for account ACC-89344130,2025-04-10 14:32:36,LOW
+527,32,94,Position reconciliation failed for account ACC-89344130,2025-03-15 06:25:36,MEDIUM
+528,32,94,Missing corporate action data for LMK7,2025-03-21 03:22:36,LOW
+529,33,95,Compliance breach detected for RFT0,2025-04-04 03:09:36,MEDIUM
+530,33,95,Risk limits exceeded for account ACC-25955426,2025-03-20 12:39:36,LOW
+531,33,95,Margin call warning for account ACC-25955426,2025-04-05 18:16:36,LOW
+532,33,95,Insufficient liquidity for FYM0,2025-04-02 05:42:36,MEDIUM
+533,33,95,Missing price data for OHO6,2025-04-07 00:33:36,LOW
+534,33,95,Risk limits exceeded for account ACC-25955426,2025-03-23 22:47:36,HIGH
+535,33,96,Missing benchmark data for portfolio ACC-5064281,2025-04-02 02:40:36,MEDIUM
+536,33,96,Margin call warning for account ACC-5064281,2025-04-09 09:32:36,HIGH
+537,33,96,Margin call warning for account ACC-5064281,2025-04-09 15:27:36,MEDIUM
+538,33,96,Risk limits exceeded for account ACC-5064281,2025-03-18 16:04:36,HIGH
+539,33,96,Missing corporate action data for YCX2,2025-04-08 01:58:36,LOW
+540,33,96,Failed to generate P&L report for ACC-5064281,2025-04-04 23:00:36,MEDIUM
+541,33,96,Missing corporate action data for KKU5,2025-04-07 08:05:36,HIGH
+542,33,96,Missing corporate action data for RWV0,2025-04-02 15:26:36,MEDIUM
+543,33,97,Missing benchmark data for portfolio ACC-6809792,2025-04-01 07:21:36,LOW
+544,33,97,Missing price data for YVQ7,2025-03-25 01:52:36,MEDIUM
+545,33,97,Missing corporate action data for CCY0,2025-03-20 13:33:36,HIGH
+546,33,97,Trade settlement failed for KMW4,2025-03-23 11:48:36,HIGH
+547,33,97,Failed to generate P&L report for ACC-6809792,2025-04-06 14:36:36,HIGH
+548,33,97,Data feed interruption for FNH2 pricing,2025-03-20 04:53:36,MEDIUM
+549,33,97,Failed to generate P&L report for ACC-6809792,2025-03-31 10:44:36,HIGH
+550,33,98,Commentary not uploaded for account ACC-96771197,2025-03-17 08:01:36,LOW
+551,33,98,Risk limits exceeded for account ACC-96771197,2025-03-16 10:51:36,HIGH
+552,33,98,Missing corporate action data for BZO5,2025-04-07 12:33:36,LOW
+553,33,98,Data feed interruption for EVH4 pricing,2025-03-23 03:30:36,HIGH
+554,33,98,Data feed interruption for UIY5 pricing,2025-03-31 05:30:36,MEDIUM
+555,33,98,NAV calculation error for account ACC-96771197,2025-03-13 13:19:36,LOW
+556,33,98,Position reconciliation failed for account ACC-96771197,2025-03-29 12:37:36,LOW
+557,34,99,NAV calculation error for account ACC-36690120,2025-03-20 07:24:36,HIGH
+558,34,99,Margin call warning for account ACC-36690120,2025-03-20 17:16:36,MEDIUM
+559,34,99,Margin call warning for account ACC-36690120,2025-03-27 12:56:36,MEDIUM
+560,34,99,Insufficient liquidity for RBT4,2025-04-07 06:34:36,LOW
+561,34,99,Trade settlement failed for UZW6,2025-04-06 22:16:36,LOW
+562,34,100,Trade settlement failed for QHR7,2025-03-25 14:52:36,HIGH
+563,34,100,Missing price data for ASM8,2025-03-13 17:40:36,HIGH
+564,34,100,Missing benchmark data for portfolio ACC-61628238,2025-03-27 20:17:36,MEDIUM
+565,34,101,Risk limits exceeded for account ACC-72105940,2025-03-16 22:26:36,MEDIUM
+566,34,101,Compliance breach detected for PEV7,2025-03-17 08:02:36,MEDIUM
+567,34,101,Commentary not uploaded for account ACC-72105940,2025-03-13 21:08:36,LOW
+568,34,101,Failed to generate P&L report for ACC-72105940,2025-03-18 14:40:36,LOW
+569,34,101,Missing corporate action data for FRA0,2025-03-16 22:25:36,LOW
+570,34,101,Position reconciliation failed for account ACC-72105940,2025-04-05 08:17:36,HIGH
+571,34,101,Margin call warning for account ACC-72105940,2025-03-28 00:16:36,MEDIUM
+572,35,102,Compliance breach detected for HSB1,2025-03-25 19:21:36,MEDIUM
+573,35,102,Failed to generate P&L report for ACC-92369778,2025-03-15 11:53:36,LOW
+574,35,102,Data feed interruption for KCF2 pricing,2025-04-10 13:28:36,MEDIUM
+575,35,102,Compliance breach detected for MMM4,2025-03-28 03:50:36,MEDIUM
+576,35,102,Compliance breach detected for JKZ8,2025-03-22 15:22:36,LOW
+577,35,102,NAV calculation error for account ACC-92369778,2025-04-05 00:11:36,LOW
+578,35,102,Invalid trade date for IUP7,2025-03-26 03:54:36,HIGH
+579,35,102,Commentary not uploaded for account ACC-92369778,2025-04-03 17:14:36,HIGH
+580,35,102,Data feed interruption for EWT0 pricing,2025-04-07 09:07:36,HIGH
+581,35,102,Data feed interruption for VQF2 pricing,2025-03-30 15:02:36,MEDIUM
+582,35,103,Invalid trade date for PTU2,2025-03-28 07:46:36,LOW
+583,35,103,Missing price data for DBV8,2025-03-27 04:26:36,MEDIUM
+584,35,103,Risk limits exceeded for account ACC-60474447,2025-03-18 14:30:36,MEDIUM
+585,36,104,Insufficient liquidity for KDS6,2025-03-29 04:28:36,MEDIUM
+586,36,104,NAV calculation error for account ACC-42930245,2025-03-28 16:15:36,LOW
+587,36,104,Missing benchmark data for portfolio ACC-42930245,2025-04-06 17:49:36,HIGH
+588,36,104,Margin call warning for account ACC-42930245,2025-04-01 03:43:36,MEDIUM
+589,36,104,Missing corporate action data for WIR0,2025-03-28 22:17:36,MEDIUM
+590,36,104,NAV calculation error for account ACC-42930245,2025-04-11 08:55:36,LOW
+591,36,104,Position reconciliation failed for account ACC-42930245,2025-03-18 15:08:36,LOW
+592,37,105,Missing benchmark data for portfolio ACC-70179288,2025-03-23 10:03:36,HIGH
+593,37,106,NAV calculation error for account ACC-69124730,2025-04-06 17:27:36,HIGH
+594,37,106,Trade settlement failed for RHS2,2025-03-15 13:39:36,HIGH
+595,37,106,Data feed interruption for WRW6 pricing,2025-03-31 20:23:36,HIGH
+596,37,106,Invalid trade date for UXI4,2025-04-08 14:30:36,MEDIUM
+597,37,106,Insufficient liquidity for HAL9,2025-04-04 13:53:36,HIGH
+598,37,106,Data feed interruption for DCW0 pricing,2025-04-01 05:26:36,HIGH
+599,37,106,Missing corporate action data for XKN6,2025-03-22 06:17:36,HIGH
+600,37,106,Risk limits exceeded for account ACC-69124730,2025-03-29 02:33:36,HIGH
+601,37,106,Missing benchmark data for portfolio ACC-69124730,2025-04-10 01:43:36,HIGH
+602,37,106,Compliance breach detected for HQZ8,2025-03-16 10:16:36,MEDIUM
+603,37,107,Compliance breach detected for MYS4,2025-04-09 18:45:36,LOW
+604,37,107,NAV calculation error for account ACC-91874992,2025-03-14 15:15:36,HIGH
+605,37,108,Missing price data for TOH9,2025-03-21 06:59:36,MEDIUM
+606,37,108,Missing benchmark data for portfolio ACC-42965851,2025-04-10 17:18:36,HIGH
+607,37,108,Failed to generate P&L report for ACC-42965851,2025-03-30 18:55:36,MEDIUM
+608,38,109,Market value not found for security IGJ9,2025-03-31 21:07:36,MEDIUM
+609,38,109,Trade settlement failed for RFY6,2025-03-29 09:21:36,MEDIUM
+610,39,110,Margin call warning for account ACC-24877895,2025-03-29 05:07:36,MEDIUM
+611,39,110,Data feed interruption for PIL6 pricing,2025-03-31 04:06:36,LOW
+612,39,110,Risk limits exceeded for account ACC-24877895,2025-04-06 20:54:36,LOW
+613,39,110,Failed to generate P&L report for ACC-24877895,2025-03-22 17:22:36,HIGH
+614,39,110,Trade settlement failed for QTY6,2025-03-19 00:28:36,MEDIUM
+615,39,110,NAV calculation error for account ACC-24877895,2025-03-13 05:38:36,HIGH
+616,39,110,Position reconciliation failed for account ACC-24877895,2025-03-31 11:49:36,MEDIUM
+617,39,110,Missing corporate action data for MOH3,2025-03-30 00:10:36,HIGH
+618,39,110,Data feed interruption for PEM6 pricing,2025-04-04 02:26:36,HIGH
+619,39,111,Data feed interruption for KED2 pricing,2025-03-15 21:28:36,LOW
+620,39,111,Missing benchmark data for portfolio ACC-22318969,2025-03-12 02:26:36,HIGH
+621,39,111,NAV calculation error for account ACC-22318969,2025-03-24 03:09:36,LOW
+622,39,111,Risk limits exceeded for account ACC-22318969,2025-03-28 18:44:36,LOW
+623,39,111,Missing price data for TUV0,2025-04-03 12:36:36,HIGH
+624,39,111,Commentary not uploaded for account ACC-22318969,2025-03-21 10:51:36,LOW
+625,39,111,Data feed interruption for DFB8 pricing,2025-04-06 20:36:36,MEDIUM
+626,39,112,Insufficient liquidity for IAJ4,2025-04-01 00:05:36,LOW
+627,39,112,Invalid trade date for ZHA6,2025-03-23 20:12:36,MEDIUM
+628,39,112,Missing corporate action data for GBX6,2025-04-09 11:37:36,MEDIUM
+629,39,112,Missing price data for OAC9,2025-03-24 09:10:36,MEDIUM
+630,39,112,Missing corporate action data for LNE8,2025-04-05 06:54:36,MEDIUM
+631,39,112,Compliance breach detected for OBC9,2025-03-27 03:58:36,LOW
+632,39,112,Missing price data for ODD9,2025-03-14 07:12:36,MEDIUM
+633,39,112,Commentary not uploaded for account ACC-50862560,2025-03-21 04:25:36,LOW
+634,39,113,Compliance breach detected for MCD9,2025-04-03 06:11:36,HIGH
+635,39,113,Missing benchmark data for portfolio ACC-96690044,2025-03-14 04:56:36,MEDIUM
+636,39,113,Invalid trade date for HXG1,2025-04-01 20:56:36,MEDIUM
+637,39,113,NAV calculation error for account ACC-96690044,2025-04-01 14:50:36,MEDIUM
+638,39,113,Invalid trade date for DKP2,2025-03-21 01:47:36,LOW
+639,39,113,Risk limits exceeded for account ACC-96690044,2025-03-25 19:59:36,MEDIUM
+640,39,113,NAV calculation error for account ACC-96690044,2025-04-10 23:35:36,MEDIUM
+641,39,114,Data feed interruption for IKV1 pricing,2025-03-30 15:55:36,LOW
+642,39,114,Missing corporate action data for WMZ4,2025-03-30 15:08:36,MEDIUM
+643,39,114,Risk limits exceeded for account ACC-71044339,2025-03-25 11:50:36,LOW
+644,39,114,Margin call warning for account ACC-71044339,2025-03-12 18:38:36,MEDIUM
+645,40,115,Market value not found for security NSA6,2025-03-30 02:18:36,MEDIUM
+646,40,115,Failed to generate P&L report for ACC-12246168,2025-03-29 08:06:36,LOW
+647,40,115,Missing corporate action data for SBN3,2025-04-06 20:13:36,MEDIUM
+648,40,115,Margin call warning for account ACC-12246168,2025-03-23 21:57:36,HIGH
+649,41,116,Failed to generate P&L report for ACC-15130596,2025-04-06 03:43:36,HIGH
+650,41,116,Insufficient liquidity for TME9,2025-04-05 16:54:36,MEDIUM
+651,41,116,Missing price data for CHM2,2025-03-13 04:53:36,MEDIUM
+652,41,117,Data feed interruption for ZAF9 pricing,2025-04-07 01:58:36,HIGH
+653,41,117,Market value not found for security OSX8,2025-03-30 17:11:36,HIGH
+654,41,117,Missing corporate action data for TFA1,2025-04-10 08:16:36,HIGH
+655,41,117,Invalid trade date for XTN2,2025-03-24 12:19:36,HIGH
+656,41,117,Missing benchmark data for portfolio ACC-87158973,2025-03-13 06:07:36,HIGH
+657,41,118,Missing corporate action data for WBL3,2025-03-22 06:48:36,LOW
+658,41,118,Data feed interruption for ZLZ4 pricing,2025-04-03 06:51:36,HIGH
+659,41,118,Insufficient liquidity for XUB3,2025-04-01 10:18:36,HIGH
+660,41,118,Data feed interruption for BHA5 pricing,2025-04-05 12:06:36,HIGH
+661,41,119,Margin call warning for account ACC-82094758,2025-03-25 01:19:36,HIGH
+662,41,119,Trade settlement failed for PKO3,2025-03-31 23:52:36,LOW
+663,41,119,Failed to generate P&L report for ACC-82094758,2025-03-15 05:46:36,MEDIUM
+664,41,120,Risk limits exceeded for account ACC-46501042,2025-03-28 18:07:36,LOW
+665,42,121,Missing corporate action data for VVH0,2025-04-07 01:21:36,MEDIUM
+666,42,121,Commentary not uploaded for account ACC-63493060,2025-04-01 06:52:36,MEDIUM
+667,42,121,Data feed interruption for XZC9 pricing,2025-03-28 09:32:36,MEDIUM
+668,42,121,Data feed interruption for MZE7 pricing,2025-03-17 03:26:36,HIGH
+669,42,121,Trade settlement failed for BIL9,2025-04-11 04:05:36,LOW
+670,42,121,Market value not found for security LFO0,2025-04-02 01:36:36,LOW
+671,42,121,NAV calculation error for account ACC-63493060,2025-03-22 15:24:36,LOW
+672,42,121,Market value not found for security BGR9,2025-04-03 01:34:36,HIGH
+673,42,121,Compliance breach detected for EWA4,2025-04-02 21:38:36,LOW
+674,42,122,Insufficient liquidity for XGU5,2025-03-29 01:41:36,LOW
+675,42,122,Margin call warning for account ACC-41531616,2025-03-31 19:57:36,MEDIUM
+676,42,122,Risk limits exceeded for account ACC-41531616,2025-04-07 09:56:36,MEDIUM
+677,42,122,Position reconciliation failed for account ACC-41531616,2025-03-22 16:45:36,HIGH
+678,43,123,Failed to generate P&L report for ACC-77301443,2025-04-07 09:43:36,HIGH
+679,43,123,Data feed interruption for DDK9 pricing,2025-03-21 06:34:36,MEDIUM
+680,43,123,Insufficient liquidity for NAB0,2025-03-25 19:43:36,MEDIUM
+681,44,124,Compliance breach detected for AAL9,2025-03-13 03:51:36,MEDIUM
+682,44,124,Margin call warning for account ACC-40846856,2025-03-19 22:01:36,HIGH
+683,44,124,Failed to generate P&L report for ACC-40846856,2025-03-24 05:30:36,HIGH
+684,44,124,Compliance breach detected for MAY5,2025-04-07 14:02:36,MEDIUM
+685,44,124,Insufficient liquidity for PBI4,2025-04-09 06:53:36,LOW
+686,44,124,Market value not found for security KGM7,2025-04-10 10:09:36,HIGH
+687,44,124,Data feed interruption for PQO0 pricing,2025-04-02 22:41:36,HIGH
+688,44,125,Trade settlement failed for UHA9,2025-03-22 13:09:36,LOW
+689,44,125,Position reconciliation failed for account ACC-89268799,2025-04-10 12:51:36,MEDIUM
+690,44,125,Failed to generate P&L report for ACC-89268799,2025-04-03 07:13:36,MEDIUM
+691,44,126,Risk limits exceeded for account ACC-60833303,2025-04-01 17:13:36,HIGH
+692,44,126,Compliance breach detected for KPH3,2025-04-01 05:46:36,LOW
+693,44,126,Missing corporate action data for GGX4,2025-03-26 22:35:36,LOW
+694,44,127,Commentary not uploaded for account ACC-65876433,2025-03-27 03:16:36,MEDIUM
+695,44,127,Risk limits exceeded for account ACC-65876433,2025-03-15 18:09:36,MEDIUM
+696,44,127,Missing corporate action data for SOJ9,2025-03-19 19:54:36,HIGH
+697,44,127,Invalid trade date for RSH3,2025-04-11 06:29:36,LOW
+698,44,127,Failed to generate P&L report for ACC-65876433,2025-03-24 05:33:36,MEDIUM
+699,44,127,NAV calculation error for account ACC-65876433,2025-04-03 08:30:36,LOW
+700,45,128,Trade settlement failed for MNI3,2025-03-21 00:17:36,LOW
+701,45,128,Risk limits exceeded for account ACC-40903047,2025-03-23 21:18:36,MEDIUM
+702,45,128,Missing corporate action data for FUC4,2025-03-18 22:39:36,LOW
+703,45,128,NAV calculation error for account ACC-40903047,2025-03-17 05:46:36,MEDIUM
+704,46,129,Margin call warning for account ACC-71450790,2025-03-22 16:24:36,HIGH
+705,46,129,Data feed interruption for FKK4 pricing,2025-04-01 03:10:36,LOW
+706,46,129,Missing corporate action data for DJL7,2025-03-27 13:17:36,MEDIUM
+707,46,129,Missing benchmark data for portfolio ACC-71450790,2025-04-02 16:56:36,MEDIUM
+708,46,129,Missing benchmark data for portfolio ACC-71450790,2025-04-04 19:57:36,MEDIUM
+709,46,129,NAV calculation error for account ACC-71450790,2025-03-13 03:47:36,HIGH
+710,46,129,Insufficient liquidity for ZCJ0,2025-03-21 06:02:36,LOW
+711,46,129,Market value not found for security HXC7,2025-03-12 17:15:36,LOW
+712,46,129,Compliance breach detected for QTR5,2025-03-26 01:01:36,MEDIUM
+713,46,129,Position reconciliation failed for account ACC-71450790,2025-03-21 23:23:36,HIGH
+714,46,130,Missing price data for VRH5,2025-03-16 01:04:36,LOW
+715,46,130,Margin call warning for account ACC-92619415,2025-03-26 03:52:36,LOW
+716,46,130,Invalid trade date for SZZ4,2025-03-17 06:56:36,HIGH
+717,46,130,Missing corporate action data for EKD5,2025-03-24 13:59:36,MEDIUM
+718,46,130,Missing price data for SVA5,2025-03-30 15:25:36,HIGH
+719,46,130,Insufficient liquidity for QAN1,2025-04-05 07:33:36,LOW
+720,47,131,Data feed interruption for MVH9 pricing,2025-03-26 22:28:36,HIGH
+721,47,131,Commentary not uploaded for account ACC-79606665,2025-04-02 11:19:36,HIGH
+722,47,131,Missing corporate action data for BDA6,2025-03-30 05:18:36,MEDIUM
+723,47,131,Market value not found for security YJV1,2025-03-31 13:36:36,MEDIUM
+724,47,131,Trade settlement failed for GDW0,2025-04-02 10:10:36,HIGH
+725,47,131,NAV calculation error for account ACC-79606665,2025-03-18 13:57:36,LOW
+726,47,131,Trade settlement failed for SGK7,2025-03-22 00:14:36,HIGH
+727,47,131,Insufficient liquidity for IOS6,2025-04-06 14:13:36,LOW
+728,47,131,Missing benchmark data for portfolio ACC-79606665,2025-03-30 02:54:36,LOW
+729,47,132,Missing benchmark data for portfolio ACC-54709507,2025-03-22 02:57:36,HIGH
+730,47,132,Compliance breach detected for BME6,2025-04-04 03:25:36,LOW
+731,47,132,Missing corporate action data for AUB4,2025-03-24 01:53:36,LOW
+732,47,132,Failed to generate P&L report for ACC-54709507,2025-03-18 02:18:36,HIGH
+733,47,132,Invalid trade date for MRO3,2025-04-04 03:44:36,HIGH
+734,47,132,Missing corporate action data for LKJ6,2025-03-30 08:28:36,LOW
+735,47,132,Missing corporate action data for CYA9,2025-04-08 16:50:36,LOW
+736,47,132,Missing benchmark data for portfolio ACC-54709507,2025-03-31 08:49:36,HIGH
+737,47,133,Data feed interruption for FRP1 pricing,2025-04-03 16:13:36,HIGH
+738,47,133,Risk limits exceeded for account ACC-24719444,2025-03-22 01:23:36,LOW
+739,47,133,Missing corporate action data for FJQ9,2025-03-22 15:07:36,MEDIUM
+740,47,133,Compliance breach detected for ZBP3,2025-04-08 04:19:36,MEDIUM
+741,47,133,Position reconciliation failed for account ACC-24719444,2025-04-03 01:18:36,LOW
+742,47,134,Failed to generate P&L report for ACC-28492466,2025-03-15 04:44:36,MEDIUM
+743,47,134,Failed to generate P&L report for ACC-28492466,2025-03-20 19:15:36,HIGH
+744,47,134,Margin call warning for account ACC-28492466,2025-03-13 06:50:36,MEDIUM
+745,47,134,Failed to generate P&L report for ACC-28492466,2025-04-08 00:04:36,LOW
+746,47,134,Margin call warning for account ACC-28492466,2025-03-16 12:44:36,LOW
+747,47,134,Insufficient liquidity for XXD1,2025-03-30 05:30:36,LOW
+748,47,134,Commentary not uploaded for account ACC-28492466,2025-03-12 13:16:36,LOW
+749,47,135,Commentary not uploaded for account ACC-35216882,2025-04-08 09:34:36,MEDIUM
+750,47,135,NAV calculation error for account ACC-35216882,2025-04-03 01:36:36,LOW
+751,47,135,Invalid trade date for UIU7,2025-04-03 22:23:36,HIGH
+752,47,135,Compliance breach detected for KRN4,2025-03-18 13:07:36,LOW
+753,47,135,Failed to generate P&L report for ACC-35216882,2025-03-30 22:28:36,MEDIUM
+754,48,136,Position reconciliation failed for account ACC-87146205,2025-04-02 17:44:36,HIGH
+755,48,136,Position reconciliation failed for account ACC-87146205,2025-03-26 01:53:36,HIGH
+756,48,136,Invalid trade date for KKX8,2025-04-08 03:41:36,LOW
+757,48,136,Insufficient liquidity for VKD3,2025-04-03 07:48:36,HIGH
+758,48,136,Invalid trade date for MNF9,2025-03-20 00:10:36,HIGH
+759,48,136,Position reconciliation failed for account ACC-87146205,2025-03-18 10:46:36,HIGH
+760,48,136,Missing price data for NTJ1,2025-04-06 22:13:36,MEDIUM
+761,48,137,Commentary not uploaded for account ACC-15138365,2025-03-24 12:29:36,HIGH
+762,48,137,Failed to generate P&L report for ACC-15138365,2025-03-14 03:57:36,LOW
+763,48,137,Data feed interruption for XXE4 pricing,2025-03-25 03:39:36,LOW
+764,48,137,Failed to generate P&L report for ACC-15138365,2025-03-21 04:26:36,LOW
+765,48,137,Trade settlement failed for IRL6,2025-03-13 09:34:36,MEDIUM
+766,48,137,Commentary not uploaded for account ACC-15138365,2025-03-12 06:04:36,HIGH
+767,48,138,Commentary not uploaded for account ACC-97575406,2025-03-30 07:26:36,LOW
+768,48,138,Insufficient liquidity for FXC5,2025-03-27 15:04:36,LOW
+769,48,138,Commentary not uploaded for account ACC-97575406,2025-03-16 07:07:36,LOW
+770,48,138,Margin call warning for account ACC-97575406,2025-04-04 19:30:36,LOW
+771,48,138,Missing price data for UXN5,2025-03-15 21:05:36,HIGH
+772,48,138,Missing benchmark data for portfolio ACC-97575406,2025-04-11 00:52:36,LOW
+773,48,138,Market value not found for security SFQ3,2025-04-04 11:05:36,MEDIUM
+774,48,138,Trade settlement failed for FRF4,2025-03-25 15:08:36,HIGH
+775,48,138,Margin call warning for account ACC-97575406,2025-03-28 12:14:36,MEDIUM
+776,48,139,Commentary not uploaded for account ACC-76587301,2025-04-02 19:38:36,LOW
+777,48,139,Market value not found for security QWQ2,2025-03-24 17:39:36,HIGH
+778,48,139,Market value not found for security JAG6,2025-03-20 17:23:36,LOW
+779,48,139,Missing corporate action data for PYI0,2025-04-04 01:14:36,MEDIUM
+780,48,139,Position reconciliation failed for account ACC-76587301,2025-03-18 13:53:36,HIGH
+781,48,139,NAV calculation error for account ACC-76587301,2025-03-30 11:02:36,HIGH
+782,48,139,Position reconciliation failed for account ACC-76587301,2025-03-29 14:29:36,LOW
+783,48,139,Compliance breach detected for TGB5,2025-03-30 03:30:36,MEDIUM
+784,48,139,Invalid trade date for MPC1,2025-03-15 03:15:36,MEDIUM
+785,48,139,Failed to generate P&L report for ACC-76587301,2025-03-30 06:36:36,MEDIUM
+786,48,140,Trade settlement failed for XLV8,2025-03-13 11:12:36,LOW
+787,49,141,Trade settlement failed for PGG9,2025-03-13 02:36:36,LOW
+788,49,141,Risk limits exceeded for account ACC-8438205,2025-03-21 14:23:36,MEDIUM
+789,49,141,NAV calculation error for account ACC-8438205,2025-03-22 17:17:36,HIGH
+790,49,141,Missing corporate action data for CKC6,2025-03-13 21:57:36,MEDIUM
+791,49,142,Failed to generate P&L report for ACC-85664654,2025-04-10 17:47:36,MEDIUM
+792,49,142,Trade settlement failed for UFQ9,2025-03-23 15:25:36,LOW
+793,50,143,Risk limits exceeded for account ACC-376719,2025-03-17 10:29:36,MEDIUM
+794,50,143,Position reconciliation failed for account ACC-376719,2025-04-06 19:55:36,HIGH
+795,50,143,Market value not found for security GHB3,2025-04-07 09:39:36,HIGH
+796,50,143,Risk limits exceeded for account ACC-376719,2025-04-10 22:07:36,HIGH
+797,50,143,Market value not found for security OEA1,2025-04-09 14:50:36,MEDIUM
+798,50,144,Risk limits exceeded for account ACC-78558305,2025-04-08 00:33:36,LOW
+799,50,144,Failed to generate P&L report for ACC-78558305,2025-03-28 19:59:36,MEDIUM
+800,50,144,Commentary not uploaded for account ACC-78558305,2025-04-10 09:09:36,MEDIUM
+801,50,145,Risk limits exceeded for account ACC-76151980,2025-03-24 17:59:36,HIGH
+802,50,145,Compliance breach detected for KPD3,2025-04-03 23:56:36,MEDIUM
+803,50,145,Missing benchmark data for portfolio ACC-76151980,2025-04-05 21:05:36,LOW
+804,50,145,Margin call warning for account ACC-76151980,2025-03-12 13:09:36,LOW
+805,50,145,Risk limits exceeded for account ACC-76151980,2025-04-07 21:25:36,HIGH
+806,50,145,Position reconciliation failed for account ACC-76151980,2025-03-16 00:12:36,HIGH
+807,50,145,Missing price data for CJN2,2025-04-04 10:58:36,HIGH
+808,50,145,Market value not found for security GLB9,2025-03-24 04:09:36,MEDIUM
+809,50,146,Compliance breach detected for IUR9,2025-03-19 21:39:36,HIGH
+810,50,146,Position reconciliation failed for account ACC-60628167,2025-03-19 14:11:36,MEDIUM
+811,50,146,Missing benchmark data for portfolio ACC-60628167,2025-04-06 21:34:36,LOW
+812,50,146,Failed to generate P&L report for ACC-60628167,2025-03-17 03:03:36,MEDIUM
+813,50,146,Data feed interruption for ZHI7 pricing,2025-04-08 18:45:36,HIGH
+814,50,146,Margin call warning for account ACC-60628167,2025-04-10 20:51:36,MEDIUM
+815,50,146,Data feed interruption for LCP5 pricing,2025-03-29 17:04:36,LOW
+816,50,146,Missing corporate action data for MNC1,2025-03-15 08:51:36,MEDIUM
+817,50,147,Trade settlement failed for MRN4,2025-03-24 00:19:36,HIGH
+818,50,147,Missing price data for QBA0,2025-04-05 04:39:36,LOW
+819,50,147,Commentary not uploaded for account ACC-40337142,2025-04-01 08:02:36,MEDIUM

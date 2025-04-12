@@ -1,0 +1,51 @@
+User,Account,Error,Timestamp
+Alex Brown,ACC-005,Missing trade confirmation for transaction #45678,2025-04-11T19:22:56.326
+John Doe,ACC-002,Failed to generate compliance report,2025-04-10T19:22:56.031
+Sarah Johnson,ACC-002,Missing trade confirmation for transaction #45678,2025-04-09T19:22:56.615
+John Doe,ACC-002,Price validation failed for instrument ABC,2025-04-08T19:22:56.536
+Alex Brown,ACC-001,Missing regulatory filing for account ACC-001,2025-04-08T19:22:56.499
+Sarah Johnson,ACC-002,Missing trade confirmation for transaction #45678,2025-04-07T19:22:56.745
+John Doe,ACC-003,Commentary not uploaded for Q4 2023 report,2025-04-07T19:22:56.654
+Jane Smith,ACC-004,Missing trade confirmation for transaction #45678,2025-04-07T19:22:56.446
+John Doe,ACC-005,Risk limit exceeded for portfolio P123,2025-04-07T19:22:56.195
+Mike Wilson,ACC-002,Missing regulatory filing for account ACC-002,2025-04-04T19:22:56.925
+John Doe,ACC-002,Commentary not uploaded for Q4 2023 report,2025-04-04T19:22:56.855
+Alex Brown,ACC-005,Margin call warning for account ACC-005,2025-04-04T19:22:56.817
+Sarah Johnson,ACC-005,Price validation failed for instrument ABC,2025-04-04T19:22:56.385
+Jane Smith,ACC-004,Margin call warning for account ACC-004,2025-04-03T19:22:56.556
+John Doe,ACC-001,Failed to generate compliance report,2025-04-03T19:22:56.347
+Alex Brown,ACC-001,Trade settlement failed - insufficient funds,2025-04-02T19:22:56.782
+Mike Wilson,ACC-004,Incomplete KYC documentation,2025-04-02T19:22:56.463
+John Doe,ACC-002,Risk limit exceeded for portfolio P123,2025-04-01T19:22:56.873
+Mike Wilson,ACC-002,Failed to generate compliance report,2025-04-01T19:22:56.406
+Sarah Johnson,ACC-004,Missing trade confirmation for transaction #45678,2025-03-31T19:22:56.835
+Jane Smith,ACC-001,Failed to generate compliance report,2025-03-30T19:22:56.233
+Sarah Johnson,ACC-001,Commentary not uploaded for Q4 2023 report,2025-03-30T19:22:56.073
+Alex Brown,ACC-004,Failed to generate compliance report,2025-03-28T19:22:56.89
+Mike Wilson,ACC-004,Commentary not uploaded for Q4 2023 report,2025-03-28T19:22:56.672
+John Doe,ACC-001,Commentary not uploaded for Q4 2023 report,2025-03-28T19:22:56.053
+Sarah Johnson,ACC-004,Incomplete KYC documentation,2025-03-27T19:22:56.726
+Alex Brown,ACC-004,Missing regulatory filing for account ACC-004,2025-03-27T19:22:56.597
+Alex Brown,ACC-003,Trade settlement failed - insufficient funds,2025-03-25T19:22:56.69
+John Doe,ACC-002,Price validation failed for instrument ABC,2025-03-25T19:22:56.365
+Jane Smith,ACC-002,Incomplete KYC documentation,2025-03-25T19:22:56.287
+Mike Wilson,ACC-005,Risk limit exceeded for portfolio P123,2025-03-25T19:22:56.155
+John Doe,ACC-002,Commentary not uploaded for Q4 2023 report,2025-03-25T19:22:56.137
+Sarah Johnson,ACC-002,Price validation failed for instrument ABC,2025-03-24T19:22:56.799
+Alex Brown,ACC-004,Incomplete KYC documentation,2025-03-24T19:22:56.576
+Sarah Johnson,ACC-001,Price validation failed for instrument ABC,2025-03-24T19:22:56.251
+Sarah Johnson,ACC-005,Missing regulatory filing for account ACC-005,2025-03-24T19:22:56.095
+Jane Smith,ACC-003,Risk limit exceeded for portfolio P123,2025-03-22T19:22:56.006
+Sarah Johnson,ACC-003,Risk limit exceeded for portfolio P123,2025-03-22T19:22:55.759
+Alex Brown,ACC-002,Failed to reconcile cash position,2025-03-21T19:22:56.215
+Sarah Johnson,ACC-004,Margin call warning for account ACC-004,2025-03-20T19:22:56.635
+Mike Wilson,ACC-004,Failed to reconcile cash position,2025-03-19T19:22:56.762
+Mike Wilson,ACC-003,Failed to reconcile cash position,2025-03-19T19:22:56.428
+Jane Smith,ACC-004,Commentary not uploaded for Q4 2023 report,2025-03-19T19:22:56.269
+Mike Wilson,ACC-003,Failed to generate compliance report,2025-03-19T19:22:56.117
+Jane Smith,ACC-002,Margin call warning for account ACC-002,2025-03-17T19:22:55.977
+Mike Wilson,ACC-001,Missing trade confirmation for transaction #45678,2025-03-14T19:22:56.481
+Jane Smith,ACC-002,Failed to reconcile cash position,2025-03-14T19:22:56.174
+Sarah Johnson,ACC-002,Missing trade confirmation for transaction #45678,2025-03-13T19:22:56.907
+Alex Brown,ACC-001,Failed to reconcile cash position,2025-03-13T19:22:56.307
+Sarah Johnson,ACC-003,Failed to generate compliance report,2025-03-12T19:22:56.708

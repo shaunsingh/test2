@@ -86,12 +86,6 @@ coverage/
 # Misc
 .DS_Store
 Thumbs.db
-*.csv
-*.xlsx
-*.xls
-*.doc
-*.docx
-*.pdf
 
 # Log file
 *.log
